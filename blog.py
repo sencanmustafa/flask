@@ -14,7 +14,7 @@ from functools import wraps
 
 
 
-#kullanıcı giriş formu
+
 class LoginForm(Form):
     username = StringField("Kullanıcı Adı",validators=[validators.length(min=3),validators.DataRequired()])
     sifre= PasswordField("Şifrenizi Giriniz",validators=[validators.DataRequired("Lütfen Şifrenizi Giriniz")])
