@@ -96,7 +96,7 @@ def login():
              
         
     else:
-        flash("Hatalı Giriş","danger")
+        #flash("Hatalı Giriş","danger")
         return render_template("login.html", form = form)
 
 @application.route("/logout")
